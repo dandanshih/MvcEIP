@@ -12,6 +12,5 @@ namespace MvcEIPEmpty.Controllers
         {
             return View();
         }
-
     }
 }
