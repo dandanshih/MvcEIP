@@ -1,0 +1,107 @@
+﻿@charset "UTF-8";
+/*
+功能：畫漸層色
+作者：Carey
+param: 
+	$linearGradient...:  傳入要畫的漸層線性 (注意三個點是可以傳入多個參數的意思)
+*/
+/*
+功能：字體加粗框
+作者：Carey
+Params:
+	$width: 要加粗的 px
+	$color: 加粗的顏色
+*/
+/*
+功能：Button 的畫面設定
+作者：Carey
+param: 
+	$className: 要使用的 ClassName
+	$btnHeight: Button 的高度
+	$btnWidth:  Button 的寬度
+*/
+/* line 6, ../sass/header.scss */
+.docHeader {
+  background-color: black, #4a4a4a, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF000000', endColorstr='#FF4A4A4A');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(14%, #000000), color-stop(16%, #fffdbc), color-stop(17%, #fffdbc), color-stop(20%, #000000), color-stop(25%, #4a4a4a), color-stop(80%, #4a4a4a), color-stop(82%, #fffdbc), color-stop(84%, #fffdbc), color-stop(89%, #000000), color-stop(100%, #000000));
+  background-image: -webkit-linear-gradient(top, #000000 0%, #000000 14%, #fffdbc 16%, #fffdbc 17%, #000000 20%, #4a4a4a 25%, #4a4a4a 80%, #fffdbc 82%, #fffdbc 84%, #000000 89%, #000000 100%);
+  background-image: -moz-linear-gradient(top, #000000 0%, #000000 14%, #fffdbc 16%, #fffdbc 17%, #000000 20%, #4a4a4a 25%, #4a4a4a 80%, #fffdbc 82%, #fffdbc 84%, #000000 89%, #000000 100%);
+  background-image: -o-linear-gradient(top, #000000 0%, #000000 14%, #fffdbc 16%, #fffdbc 17%, #000000 20%, #4a4a4a 25%, #4a4a4a 80%, #fffdbc 82%, #fffdbc 84%, #000000 89%, #000000 100%);
+  background-image: linear-gradient(top, #000000 0%, #000000 14%, #fffdbc 16%, #fffdbc 17%, #000000 20%, #4a4a4a 25%, #4a4a4a 80%, #fffdbc 82%, #fffdbc 84%, #000000 89%, #000000 100%);
+  background-image: -ms-linear-gradient(top, #000000 0%, #000000 14%, #fffdbc 16%, #fffdbc 17%, #000000 20%, #4a4a4a 25%, #4a4a4a 80%, #fffdbc 82%, #fffdbc 84%, #000000 89%, #000000 100%);
+  height: 62px;
+}
+/* line 19, ../sass/header.scss */
+.docHeader span {
+  padding-left: 100px;
+  font-size: 20px;
+  line-height: 62px;
+  color: #f4d83b;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 #280101, 0px -1px 0 #280101, 1px -1px 0 #280101, -1px 0px 0 #280101, 0px 0px 0 #280101, 1px 0px 0 #280101, -1px 1px 0 #280101, 0px 1px 0 #280101, 1px 1px 0 #280101, -2px -2px 0 #280101, -1px -2px 0 #280101, 0px -2px 0 #280101, 1px -2px 0 #280101, 2px -2px 0 #280101, -2px -1px 0 #280101, -1px -1px 0 #280101, 0px -1px 0 #280101, 1px -1px 0 #280101, 2px -1px 0 #280101, -2px 0px 0 #280101, -1px 0px 0 #280101, 0px 0px 0 #280101, 1px 0px 0 #280101, 2px 0px 0 #280101, -2px 1px 0 #280101, -1px 1px 0 #280101, 0px 1px 0 #280101, 1px 1px 0 #280101, 2px 1px 0 #280101, -2px 2px 0 #280101, -1px 2px 0 #280101, 0px 2px 0 #280101, 1px 2px 0 #280101, 2px 2px 0 #280101, -3px -3px 0 #280101, -2px -3px 0 #280101, -1px -3px 0 #280101, 0px -3px 0 #280101, 1px -3px 0 #280101, 2px -3px 0 #280101, 3px -3px 0 #280101, -3px -2px 0 #280101, -2px -2px 0 #280101, -1px -2px 0 #280101, 0px -2px 0 #280101, 1px -2px 0 #280101, 2px -2px 0 #280101, 3px -2px 0 #280101, -3px -1px 0 #280101, -2px -1px 0 #280101, -1px -1px 0 #280101, 0px -1px 0 #280101, 1px -1px 0 #280101, 2px -1px 0 #280101, 3px -1px 0 #280101, -3px 0px 0 #280101, -2px 0px 0 #280101, -1px 0px 0 #280101, 0px 0px 0 #280101, 1px 0px 0 #280101, 2px 0px 0 #280101, 3px 0px 0 #280101, -3px 1px 0 #280101, -2px 1px 0 #280101, -1px 1px 0 #280101, 0px 1px 0 #280101, 1px 1px 0 #280101, 2px 1px 0 #280101, 3px 1px 0 #280101, -3px 2px 0 #280101, -2px 2px 0 #280101, -1px 2px 0 #280101, 0px 2px 0 #280101, 1px 2px 0 #280101, 2px 2px 0 #280101, 3px 2px 0 #280101, -3px 3px 0 #280101, -2px 3px 0 #280101, -1px 3px 0 #280101, 0px 3px 0 #280101, 1px 3px 0 #280101, 2px 3px 0 #280101, 3px 3px 0 #280101;
+  font-family: Georgia;
+  font-weight: 900;
+}
+
+/* line 30, ../sass/header.scss */
+.docMenu {
+  height: 30px;
+  background-color: #dda737, #f6e6b4, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDDA737', endColorstr='#FFF6E6B4');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f6e6b4), color-stop(10%, #dda737), color-stop(36%, #dda737), color-stop(90%, #f6e6b4), color-stop(100%, #ad9741));
+  background-image: -webkit-linear-gradient(top, #f6e6b4 0%, #dda737 10%, #dda737 36%, #f6e6b4 90%, #ad9741 100%);
+  background-image: -moz-linear-gradient(top, #f6e6b4 0%, #dda737 10%, #dda737 36%, #f6e6b4 90%, #ad9741 100%);
+  background-image: -o-linear-gradient(top, #f6e6b4 0%, #dda737 10%, #dda737 36%, #f6e6b4 90%, #ad9741 100%);
+  background-image: linear-gradient(top, #f6e6b4 0%, #dda737 10%, #dda737 36%, #f6e6b4 90%, #ad9741 100%);
+  background-image: -ms-linear-gradient(top, #f6e6b4 0%, #dda737 10%, #dda737 36%, #f6e6b4 90%, #ad9741 100%);
+}
+
+/* line 37, ../sass/header.scss */
+.operator {
+  right: 100px;
+  /*width: 300px;
+  height: 62px;*/
+  top: 0px;
+  position: absolute;
+  color: #FFF;
+}
+
+/* line 16, ../sass/_common.scss */
+.docBtn {
+  display: inline-block;
+  *display: inline;
+  margin: 0px 10px 10px 0px;
+  background-color: #710505, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF710505', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #710505));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #710505 100%);
+  height: 23px;
+  width: 78px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 black, 0px -1px 0 black, 1px -1px 0 black, -1px 0px 0 black, 0px 0px 0 black, 1px 0px 0 black, -1px 1px 0 black, 0px 1px 0 black, 1px 1px 0 black;
+  border: 1px black solid;
+  line-height: 21px;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* line 30, ../sass/_common.scss */
+.docBtn:hover {
+  background-color: #dd3332, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDD3332', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #dd3332));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  cursor: pointer;
+}

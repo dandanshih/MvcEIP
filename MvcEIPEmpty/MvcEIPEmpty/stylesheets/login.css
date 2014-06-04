@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/*
+功能：畫漸層色
+作者：Carey
+param: 
+	$linearGradient...:  傳入要畫的漸層線性 (注意三個點是可以傳入多個參數的意思)
+*/
+/*
+功能：字體加粗框
+作者：Carey
+Params:
+	$width: 要加粗的 px
+	$color: 加粗的顏色
+*/
+/*
+功能：字體加粗框
+作者：Carey
+Params:
+	$width: 要加粗的 px
+	$color: 加粗的顏色
+*/
+/*
+功能：Button 的畫面設定
+作者：Carey
+param: 
+	$className: 要使用的 ClassName
+	$btnHeight: Button 的高度
+	$btnWidth:  Button 的寬度
+*/
+/* line 7, ../sass/login.scss */
+.loginBox {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  margin-left: -216.5px;
+  margin-top: -201.5px;
+  width: 433px;
+  height: 403px;
+  background-color: black;
+  padding: 2px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 28, ../sass/login.scss */
+.loginBox-header {
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: black, #4a4a4a, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF000000', endColorstr='#FF4A4A4A');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(40%, #4a4a4a), color-stop(60%, #4a4a4a), color-stop(100%, #000000));
+  background-image: -webkit-linear-gradient(top, #000000 0%, #4a4a4a 40%, #4a4a4a 60%, #000000 100%);
+  background-image: -moz-linear-gradient(top, #000000 0%, #4a4a4a 40%, #4a4a4a 60%, #000000 100%);
+  background-image: -o-linear-gradient(top, #000000 0%, #4a4a4a 40%, #4a4a4a 60%, #000000 100%);
+  background-image: linear-gradient(top, #000000 0%, #4a4a4a 40%, #4a4a4a 60%, #000000 100%);
+  background-image: -ms-linear-gradient(top, #000000 0%, #4a4a4a 40%, #4a4a4a 60%, #000000 100%);
+  height: 91px;
+  padding-left: 20px;
+  line-height: 91px;
+  color: #f4d83b;
+  font-size: 22px;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 #000029, 0px -1px 0 #000029, 1px -1px 0 #000029, -1px 0px 0 #000029, 0px 0px 0 #000029, 1px 0px 0 #000029, -1px 1px 0 #000029, 0px 1px 0 #000029, 1px 1px 0 #000029;
+}
+
+/* line 47, ../sass/login.scss */
+.loginBox-input {
+  background-color: #d4d4d4, whitesmoke, horizontal;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFD4D4D4', endColorstr='#FFF5F5F5');
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #d4d4d4), color-stop(15%, #f5f5f5), color-stop(85%, #f5f5f5), color-stop(100%, #d4d4d4));
+  background-image: -webkit-linear-gradient(left, #d4d4d4 0%, #f5f5f5 15%, #f5f5f5 85%, #d4d4d4 100%);
+  background-image: -moz-linear-gradient(left, #d4d4d4 0%, #f5f5f5 15%, #f5f5f5 85%, #d4d4d4 100%);
+  background-image: -o-linear-gradient(left, #d4d4d4 0%, #f5f5f5 15%, #f5f5f5 85%, #d4d4d4 100%);
+  background-image: linear-gradient(left, #d4d4d4 0%, #f5f5f5 15%, #f5f5f5 85%, #d4d4d4 100%);
+  background-image: -ms-linear-gradient(left, #d4d4d4 0%, #f5f5f5 15%, #f5f5f5 85%, #d4d4d4 100%);
+  padding: 20px 20px 0px 50px;
+  height: 97px;
+  font-family: 新細明體, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+/* line 60, ../sass/login.scss */
+.loginBox-input .inputType .colHeader {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+/* line 66, ../sass/login.scss */
+.loginBox-input .inputType .colData {
+  display: inline;
+  width: 40%;
+}
+
+/* line 73, ../sass/login.scss */
+.loginBox-keyboard {
+  background-color: #020013, #2a2a2a, horizontal;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF020013', endColorstr='#FF2A2A2A');
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #020013), color-stop(15%, #2a2a2a), color-stop(85%, #2a2a2a), color-stop(100%, #020013));
+  background-image: -webkit-linear-gradient(left, #020013 0%, #2a2a2a 15%, #2a2a2a 85%, #020013 100%);
+  background-image: -moz-linear-gradient(left, #020013 0%, #2a2a2a 15%, #2a2a2a 85%, #020013 100%);
+  background-image: -o-linear-gradient(left, #020013 0%, #2a2a2a 15%, #2a2a2a 85%, #020013 100%);
+  background-image: linear-gradient(left, #020013 0%, #2a2a2a 15%, #2a2a2a 85%, #020013 100%);
+  background-image: -ms-linear-gradient(left, #020013 0%, #2a2a2a 15%, #2a2a2a 85%, #020013 100%);
+  padding: 10px 0px 0px 20px;
+  height: 160px;
+}
+
+/* line 84, ../sass/login.scss */
+.loginBox-footer {
+  height: 25px;
+}
+
+/* line 16, ../sass/_common.scss */
+.btnKey {
+  display: inline-block;
+  *display: inline;
+  margin: 0px 10px 10px 0px;
+  background-color: #710505, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF710505', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #710505));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #710505 100%);
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 black, 0px -1px 0 black, 1px -1px 0 black, -1px 0px 0 black, 0px 0px 0 black, 1px 0px 0 black, -1px 1px 0 black, 0px 1px 0 black, 1px 1px 0 black;
+  border: 1px black solid;
+  line-height: 26px;
+  font-size: 22px;
+}
+/* line 30, ../sass/_common.scss */
+.btnKey:hover {
+  background-color: #dd3332, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDD3332', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #dd3332));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  cursor: pointer;
+}
+
+/* line 16, ../sass/_common.scss */
+.btnBack {
+  display: inline-block;
+  *display: inline;
+  margin: 0px 10px 10px 0px;
+  background-color: #710505, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF710505', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #710505));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #710505 100%);
+  height: 28px;
+  width: 68px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 black, 0px -1px 0 black, 1px -1px 0 black, -1px 0px 0 black, 0px 0px 0 black, 1px 0px 0 black, -1px 1px 0 black, 0px 1px 0 black, 1px 1px 0 black;
+  border: 1px black solid;
+  line-height: 20px;
+  font-size: 30px;
+}
+/* line 30, ../sass/_common.scss */
+.btnBack:hover {
+  background-color: #dd3332, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDD3332', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #dd3332));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  cursor: pointer;
+}
+
+/* line 16, ../sass/_common.scss */
+.btnLogin {
+  display: inline-block;
+  *display: inline;
+  margin: 0px 10px 10px 0px;
+  background-color: #710505, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF710505', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #710505));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #710505 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #710505 100%);
+  height: 28px;
+  width: 68px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 0 transparent, -1px -1px 0 black, 0px -1px 0 black, 1px -1px 0 black, -1px 0px 0 black, 0px 0px 0 black, 1px 0px 0 black, -1px 1px 0 black, 0px 1px 0 black, 1px 1px 0 black;
+  border: 1px black solid;
+  line-height: 26px;
+  font-size: 22px;
+  text-decoration: none;
+}
+/* line 30, ../sass/_common.scss */
+.btnLogin:hover {
+  background-color: #dd3332, #dd3332, vertical;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDD3332', endColorstr='#FFDD3332');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dd3332), color-stop(100%, #dd3332));
+  background-image: -webkit-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -moz-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -o-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  background-image: -ms-linear-gradient(top, #dd3332 0%, #dd3332 100%);
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<!DOCTYPE html>
+<%-- 設定語言為繁體中文 --%>
+<html lang="zh">
+<%-- head元素（document head）記述有關文件的樣式、文字碼、標題、、關鍵字、簡要文、相關文件、樣式表、文稿程式等資訊。 --%>
+<head runat="server">
+    <%-- 顯示和排列中文 --%>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <%-- 設定標題 --%>
+    <title> SGT 的 EIP 系統</title>
+    
+    <%-- 設定樣式 --%>
+    <link rel="Stylesheet" href="/stylesheets/header.css" />
+    <%-- 最後編譯與最小化CSS --%>
+    <link rel="stylesheet" href="/Content/bootstrap.min.css">
+    <%-- 選擇項主題樣式 --%>
+    <link rel="stylesheet" href="/Content/bootstrap-theme.min.css">
+
+    <%-- 做 bootstrap 需要做 include 的動作 --%>
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+
+</head>
+
+<%-- body元素（document head）記述文体內容（document body）。 --%>
+<body>
+    <div class="form-group">
+        <asp:ContentPlaceHolder ID="UpContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+</body>
+</html>
